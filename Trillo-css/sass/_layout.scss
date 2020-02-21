@@ -1,0 +1,36 @@
+.container {
+    max-width: 90rem;
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+    min-height: 50rem;
+
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color:#fff;
+  border-bottom: var(--shadow-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+     display: flex;
+}
+
+.sidebar {
+background-color:var(--color-grey-dark-1);
+// to difine the size of the child element 
+ flex: 0 0 18%; 
+}
+
+.hotel-view {
+    background-color:#fff; 
+    background-color: orange;
+    // If we want the child to take as much space as it can
+    flex: 1;
+
+}
